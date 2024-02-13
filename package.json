@@ -1,0 +1,19 @@
+{
+  "name": "HuloTestDev",
+  "description": "",
+  "homepage": "https://malaya1855.github.io/HuloTestDev",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /HuloTestDev/"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "^2.11.0"
+  },
+  "dependencies": {
+    "@fancyapps/ui": "^5.0.33",
+    "@splidejs/splide": "^4.1.4",
+    "axios": "^1.6.7"
+  }
+}
