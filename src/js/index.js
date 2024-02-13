@@ -9,7 +9,6 @@ import "@fancyapps/ui/dist/fancybox/fancybox.css";
 export const slideVideo = document.querySelector(".splide__list");
 
 const newApiService = new NewApiService();
-console.log(newApiService);
 newApiService
   .getVideo()
   .then((video) => {
