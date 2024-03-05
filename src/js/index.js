@@ -7,7 +7,6 @@ import { Fancybox } from "@fancyapps/ui";
 import "@fancyapps/ui/dist/fancybox/fancybox.css";
 
 export const slideVideo = document.querySelector(".splide__list");
-console.log(slideVideo);
 
 const newApiService = new NewApiService();
 newApiService
@@ -28,20 +27,6 @@ newApiService
       Thumbs: {
         type: "classic",
       },
-      //   Carousel: {
-      //     Dots: {
-      //       autoStart: true,
-      //       type: "dots",
-      //     },
-      //   },
-
-      //   Toolbar: {
-      //     display: {
-      //       left: [],
-      //       middle: ["prev", "thumbs", "next"],
-      //       right: ["close"],
-      //     },
-      //   },
 
       Html: {
         vimeo: {
